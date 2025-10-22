@@ -1,5 +1,5 @@
 // Realizar una solicitud GET
-fetch('http://127.0.0.1/Grupo14_MujeresDigitalesReto2/registroArtistas.php?action=read', {
+fetch('registroArtistas.php?action=read', {
     method: 'GET',
 })
     .then(response => {
@@ -16,7 +16,7 @@ fetch('http://127.0.0.1/Grupo14_MujeresDigitalesReto2/registroArtistas.php?actio
     });
 
 // Realizar una solicitud POST
-fetch('http://127.0.0.1/Grupo14_MujeresDigitalesReto2/registroArtistas.php', {
+fetch('registroArtistas.php', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',

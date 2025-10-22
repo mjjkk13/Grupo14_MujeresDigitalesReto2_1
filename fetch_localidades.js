@@ -1,5 +1,5 @@
 // Realizar una solicitud GET
-fetch('http://127.0.0.1/Grupo14_MujeresDigitalesReto2/registroLocalidades.php?action=read', {
+fetch('registroLocalidades.php?action=read', {
     method: 'GET',
 })
     .then(response => {
@@ -16,7 +16,7 @@ fetch('http://127.0.0.1/Grupo14_MujeresDigitalesReto2/registroLocalidades.php?ac
     });
 
 // Realizar una solicitud POST
-fetch('http://127.0.0.1/Grupo14_MujeresDigitalesReto2/registroLocalidades.php', {
+fetch('registroLocalidades.php', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
